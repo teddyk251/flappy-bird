@@ -40,6 +40,7 @@ function generateObstacle() {
   if (!isGameOver) {
     obstacle.classList.add("obstacle");
     topObstacle.classList.add("obstacle");
+    topObstacle.classList.add("top-obstacle");
   }
   gameDisplay.appendChild(obstacle);
   gameDisplay.appendChild(topObstacle);

@@ -5,14 +5,14 @@
 }
 
 .sky {
-  background-color: aqua;
+  background: url(images/background-day.png);
   position: absolute;
   width: 500px;
   height: 560px;
 }
 
 .ground {
-  background-color: rgb(63, 15, 15);
+  background: url(images/base.png);
   position: absolute;
   top: 560px;
   width: 500px;
@@ -30,8 +30,12 @@
 }
 
 .obstacle {
-  background-color: green;
+  background: url(images/pipe-green.png);
   width: 60px;
   height: 300px;
   position: absolute;
+}
+
+.top-obstacle {
+  background: url(images/pipe-green-top.png);
 }
